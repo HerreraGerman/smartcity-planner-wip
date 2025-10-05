@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { IoHomeOutline } from "react-icons/io5";
-import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import { HiOutlineX } from "react-icons/hi";
 import Switch from '../Switch/Switch';
@@ -45,7 +44,13 @@ function NavBar({ Page }) {
                     </div>
                 </nav>
                 <div className='div-user'>
-                    <IoHomeOutline />  WIP
+                    <div>
+                        <ul className='lista-navbar'>
+                            <li className='text-lista'> <IoHomeOutline/> <input type="text" placeholder="Population Density"/></li>
+                            <li className='text-lista'> <MdOutlinePhotoSizeSelectSmall /> <input type="text" placeholder="Square Meters"/> </li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </div >
         </>

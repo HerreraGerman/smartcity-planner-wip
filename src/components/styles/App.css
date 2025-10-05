@@ -172,10 +172,12 @@
 
 .div-user {
   display: flex;
-  height: 70px;
-  justify-content: center;
-  align-items: center;
+  height: 150px;
+  justify-content: left;
+  align-items: left;
   background-color: #444444;
+  padding-left: 10px;
+  padding-top: 10px;
   /* padding-bottom: 30px; */
 
   /* margin-top: 480px; */
@@ -252,4 +254,10 @@
 
 .react-switch-label:active .react-switch-button {
   width: 30px;
+}
+
+input {
+  margin-left: 10px;
+  height: 10px;
+  border-radius: 5px;
 }
