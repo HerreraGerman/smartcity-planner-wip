@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoHomeOutline } from "react-icons/io5";
+import { MdOutlinePhotoSizeSelectSmall } from "react-icons/md";
 import { HiMenu } from "react-icons/hi";
 import { HiOutlineX } from "react-icons/hi";
 import Switch from '../Switch/Switch';
